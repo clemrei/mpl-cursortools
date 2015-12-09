@@ -27,14 +27,14 @@ import ipdb
 def setcursormode(cur_mode, cursors='all', ax='current'):
     """Set cursor interaction mode of a selection of cursors.
 
-    PARAMETERS
+    Parameters
     ----------
     cur_mode : String
         Cursor interaction mode (interact|fixed).
     cursors : Int|Sequence
         Selection of cursors. IDs (integers), or cursor objects.
 
-    EXAMPLE
+    Example
     -------
     # change the cursor mode for a range (2,3,4,5) of cursors in plot
     >>> ct.setcursormode('fixed', range(2,6))
